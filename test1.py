@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 abzx
+=======
+abcd
+>>>>>>> master
