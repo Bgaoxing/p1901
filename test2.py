@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-eeafwe
-=======
-rt
->>>>>>> master
+wsx
