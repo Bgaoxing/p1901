@@ -1,0 +1,10 @@
+t remote add 自己的仓库名字（git_bgx_ssh git@github.com:Bgaoxing/p1901.git）
+2 远程仓库添加公钥
+远程仓库免密
+1 在终端添加自己的远程仓库git remote add 自己的仓库名字（git_bgx_ssh git@github.com:Bgaoxing/p1901.git）
+2 远程仓库添加公钥
+
+3 登陆上传文件应该就免密了
+git push 自己仓库名字（git_bgx_ssh） master
+3 登陆上传文件应该就免密了
+git push 自己仓库名字（git_bgx_ssh） masteri
