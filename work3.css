@@ -1,0 +1,15 @@
+#s1{
+    color: red;
+    font-weight: bold;
+}
+#se1{
+    border: 1px dashed black;
+}
+#d1>p{
+    color: green;
+}
+.a1>div>p{
+    color: yellow;
+    font-family: "Al Bayan";
+
+}

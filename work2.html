@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html表单表格作业</title>
+    <style>
+        .c1{
+
+        }
+
+    </style>
+</head>
+<body>
+<!-- 1 -->
+<table border="1" cellspacing="1">
+
+    <tr>
+        <td>这是一个段落<br>这是另一个段落</td>
+        <td>这是一个单元表格
+            <table border="1" cellspacing="1">
+            <tr>
+                <td>a</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>c</td>
+                <td>d</td>
+
+            </tr>
+        </table>
+        </td>
+    </tr>
+    <tr>
+        <td>这是一个列表
+            <center><li >bwm</li></center>
+            <center><li >benz</li></center>
+            <center><li >audi</li></center>
+
+        </td>
+        <td><strong><big>over</big></strong></td>
+    </tr>
+
+
+</table>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+<!--  2  -->
+<table border="1" cellspacing="1">
+    <tr>
+        <td colspan="7" align="center"><strong>课程表</strong></td>
+    </tr>
+    <tr>
+        <td width="100" colspan="2">日期\时间</td>
+        <td align="center">1</td>
+        <td align="center">2</td>
+        <td align="center">3</td>
+        <td align="center">4</td>
+        <td align="center">5</td>
+    <tr>
+        <td rowspan="2">上午</td>
+        <td>9:30-10.15</td>
+        <td>c</td>
+        <td align="center">python</td>
+        <td>go</td>
+        <td align="center">java</td>
+        <td>js</td>
+    </tr>
+    <tr>
+        <td align="center">10.00-11.50</td>
+        <td align="center">java</td>
+        <td>js</td>
+        <td>go</td>
+        <td>c</td>
+        <td>c</td>
+    </tr>
+    <tr>
+        <td colspan="7" ></td>
+    </tr>
+    <tr>
+        <td rowspan="2">下午</td>
+        <td>14:30-16.15</td>
+        <td align="center">篮球</td>
+        <td>足球</td>
+        <td align="center">羽毛球</td>
+        <td align="center">排球</td>
+        <td align="center">棒球</td>
+    </tr>
+    <tr>
+        <td align="center">16.30-18.00</td>
+        <td align="center">棒球</td>
+        <td align="center">羽毛球</td>
+        <td>篮球</td>
+        <td align="center">排球</td>
+        <td align="center">排球</td>
+    </tr>
+</table>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+<form id="f1" action="http://127.0.0.1:9000" method="get">
+    <label for="x1">账号:</label>
+    <!--输入框-->
+    <input name="username" id="x1" placeholder="请输入账号">
+    <span>&nbsp(必填)</span>
+    <br>
+    <br>
+
+    <label for="x2">密码:</label>
+    <!--type 密码隐藏-->
+    <input type="password" id="x2" name="password" placeholder="请输入密码" >
+    <span>&nbsp(必填)</span>
+    <br>
+    <br>
+
+    <!-- checkbox 多选框 radio 单选框-->
+    <!-- 当设置单选时 若后面name 值不一样，也可以用作多选-->
+    <span>性别:</span>
+    保密<input type="radio" name="right" value="1">
+    男<input type="radio" name="right" value="2">
+    女<input type="radio" name="right" value="3">
+    <span>&nbsp(选填)</span>
+    <br>
+    <br>
+
+     <label for="x3">邮箱:</label>
+    <!--输入框-->
+    <input name="addr" id="x3">
+     <span>&nbsp(选填)</span>
+    <br>
+    <br>
+
+     <label for="x4">电话:</label>
+    <!--输入框-->
+    <input name="phone" id="x4">
+     <span>&nbsp(必填)</span>
+    <br>
+    <br>
+
+     <label for="x5">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+    <!--输入框-->
+    <input name="" id="x5" value="重庆">
+    <br>
+    <br>
+
+     <label for="x6"></label>
+    <!--输入框-->
+    <input name="" id="x6" style="width: 220px;height: 50px" placeholder="请输入个性签名">
+    <br>
+    <br>
+
+    <div class="c1">
+            <span class="sigma-line-text">兴趣爱好</span>
+    </div>
+
+    打篮球<input type="checkbox" name="right" value="1">
+
+    游泳<input type="checkbox" name="right" value="2">
+
+    健身<input type="checkbox" name="right" value="3">
+
+    登山<input type="checkbox" name="right" value="1">
+
+    摄影<input type="checkbox" name="right" value="2">
+
+    撸代码<input type="checkbox" name="right" value="3">
+    <hr>
+
+    <!--submit 提交按钮-->
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="注册">
+    <input type="submit" value="取消">
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+</form>
+
+
+
+
+</body>
+</html>
